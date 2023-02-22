@@ -1,0 +1,328 @@
+body{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+    background-color: black;
+    text-decoration: none;
+    transition: 1s;
+}
+.dark-mode-toggle{
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    background-color: #CE5937;
+    color: white;
+    font-size: 13px;
+}
+
+.header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-style: none;
+   text-shadow: 6px 13px 13px #CE5937;
+}
+.header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    font-style: none;
+    text-decoration: none;
+    list-style: none;
+    text-shadow: -1px 4px 20px #CE5937;
+}
+.header ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    margin-right: 25px;
+    text-decoration: none;
+    font-style: none;
+    color: #FF8C42;
+    list-style: none;
+    text-shadow: -1px 4px 20px #CE5937;
+}
+.header ul li a:hover{
+    color: #9e5325;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0,9s;
+}
+.logo h1 {
+ color: #FF8C42;
+ font-size: 60px;
+ margin: 30px 50px ;
+}
+/* Section-1 */
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 300px;
+    
+
+}
+.main-left{
+    display: inline-block;
+    padding-top: 20px;
+    margin-left: 100px;
+    text-shadow: 6px 13px 13px #CE5937;
+}
+.main-left h1{
+    font-size: 100px;
+    margin-left: 300px;
+    padding-top: 200px;
+    color: #FF8C42;
+    font-family: 'Quicksand';
+}
+.main-left h3{
+    font-size: 40px;
+    margin-left: 300px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: #FF8C42;
+    font-family: 'Quicksand';
+}
+.main-left input{
+    width: 400px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid orange;
+    color: black;
+    font-size: 30px;
+    margin-left: 300px;
+}
+.main-left button{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    top: 50px;
+    margin-right: 10px;
+    left:  300px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 119, 0, 0.911) ;
+    color: white;
+}
+.main-left button:hover{
+    background-color: #9e5325;
+    transition: 0,9s;
+    opacity: 20;
+   
+}
+.main-right img{
+    position: relative;
+    top: 200px;
+    width: 650px;
+    margin-right: 500px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+/* Section-2 */
+.section-2{
+    display: flex;
+    align-items: center;
+    padding-top: 400px;
+    justify-content: space-around;
+    padding-bottom: 200px;
+    text-shadow: 6px 13px 13px #CE5937;
+}
+.right-part h2, h3 {
+  font-size: 50px;
+  color: #FF8C42;
+  line-height: 90px;
+  margin-right:50px ;
+}
+.right-part button{
+width: 300px;
+height: 60px;
+border-radius: 30px;
+border: none;
+background-color:  rgba(255, 119, 0, 0.911) ; 
+font-size: 30px;
+color: white;
+}
+.right-part a{
+position: relative;
+top: 50px;
+}
+.right-part button:hover{
+background-color:#9e5325;
+transition: 0,9s;
+}
+/* section-3 */
+.section-3{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 200px;
+   padding-bottom: 200px;
+   text-shadow: 6px 13px 13px #CE5937;
+   list-style: none;
+}
+.section-3 h1{
+    color: white;
+    font-size: 70px;
+    margin-left: 300px;
+    text-shadow: 2px 7px 13px #fff;
+}
+.section-3 img  {
+    width: 800px;
+    height: 700px;
+    padding-top: 50px;
+    margin-left: 200px;
+    border-radius: 90px;
+}
+.s-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 90px;
+    padding-top: 60px;
+    margin-left: 90px;
+}
+.s-right a { 
+    color:#FF8C42;
+    font-size: 45px;
+    margin-right: 300px;
+    text-decoration: none;
+}
+.ee{
+    margin-left: 150px;
+    list-style: circle;
+}
+.scn{
+    margin-left: 120px;
+}
+.rd{
+    margin-left: 90px;
+}
+.bb{
+    margin-left: 60px;
+}
+.vv{
+    margin-left: 30px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    
+}
+.btn button{
+    position: absolute;
+    width: 200px;
+    height: 50px; 
+    margin-top: 40px;
+    margin-right: 100px;
+    background-color: rgba(255, 119, 0, 0.911) ;
+    color: white;
+    font-size: 15px; 
+    border-radius: 15px;
+    border: none;
+}
+.footer{
+    height: 400px;
+    display:flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e76413;
+}
+.h2 h2{
+    position: absolute;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.672);
+    margin-left: 300px;
+    background-color: #e76413;
+}
+.subscribe  {
+    padding-top: 20px;
+    height: 100px;   
+    width: 900px;
+    background-color:#e76413;
+}
+.subscribe input{
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+    height: 50px;
+    width: 320px;  
+    border: 1px solid #FF8C42;
+    border-radius: 10px;
+}
+.subscribe button{
+    position: relative;
+    top: 15px;
+    height: 45px;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-left: 20px;
+}
+.footer-icons{
+    bottom: 100px;
+    margin-right: 90px;
+    margin-left: 300px;
+    font-size: 30px;
+    position: relative;
+    color: white;
+}
+.footer-icons i {
+    position: relative;
+    background-color: #e76413   ;
+    margin-right: 30px;
+}
+.footer-icons i:hover{
+cursor: pointer;
+font-size: 50px;
+transition: 1s;
+}
+.footer-icons .fa-telegram{
+    color: rgb(14, 103, 204);
+    font-size: 40px;
+}
+.footer-icons .fa-instagram{
+  
+    color: rgb(255, 3, 3);
+    font-size: 40px;
+}
+.footer-icons .fa-twitter{
+    color: rgb(65, 165, 242);
+    font-size: 40px;
+}
+.footer-icons .fa-facebook{
+    color: rgb(65, 165, 242);
+    font-size: 40px;
+}
+.s-right button:hover{
+    background-color: #9e5325;
+    font-size: 15px;
+    transition: 0,9s;
+}
+.subscribe button{
+    background-color:#FF8C42;
+    font-size: 15px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+.subscribe button:hover{
+    background-color:#9e5325;
+    transition: 0,9s;
+}
+
+
+
+
+
+
+
+ 
+
+
+
